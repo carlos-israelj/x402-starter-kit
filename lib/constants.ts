@@ -41,6 +41,6 @@ export const AGENT_AUTHORIZATION = {
 
 // OpenRouter configuration for AI chat
 export const OPENROUTER_CONFIG = {
-  API_URL: "https://openrouter.ai/api/v1/chat/completions",
-  FREE_MODEL: "mistralai/devstral-2512:free",
+  API_URL: "https://api.z.ai/api/paas/v4/chat/completions",
+  FREE_MODEL: "glm-4.5-flash", // gratis en z.ai; alternativa: "glm-4.7-flash"
 } as const;
