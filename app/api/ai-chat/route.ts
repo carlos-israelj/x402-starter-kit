@@ -75,7 +75,7 @@ export async function POST(request: Request) {
     const openRouterResponse = await fetch(OPENROUTER_CONFIG.API_URL, {
       method: "POST",
       headers: {
-        "Authorization": `Bearer ${process.env.OPENROUTER_API_KEY}`,
+        "Authorization": `Bearer ${process.env.ZAI_API_KEY}`,
         "Content-Type": "application/json",
         "HTTP-Referer": origin,
         "X-Title": "x402 AI Chat Demo",

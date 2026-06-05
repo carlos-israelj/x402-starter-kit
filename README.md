@@ -45,7 +45,7 @@ Fill in the required values:
 - `THIRDWEB_SECRET_KEY` - Your Thirdweb secret key 
 - `THIRDWEB_SERVER_WALLET_ADDRESS` - **Facilitator address** (ERC4337 Smart Account address)
 - `MERCHANT_WALLET_ADDRESS` - Payment recipient wallet address
-- `OPENROUTER_API_KEY` - Your OpenRouter API key for AI chat ([Get one here](https://openrouter.ai/settings/keys)) 
+- `ZAI_API_KEY` - Your z.ai API key for AI chat with free GLM Flash model ([Get one here](https://z.ai/manage-apikey/apikey-list)) 
 
 ## Development
 
